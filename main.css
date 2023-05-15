@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  color: #23225c;
+  text-align: center;
+  margin-block: 20px;
+  font-size: 35px;
+  padding: 15px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card-container .card {
+  border-radius: 10px;
+  width: 400px;
+  background-color: #dbe7f0;
+  border: gray 0.5px solid;
+  color: #23225c;
+  padding: 10px;
+  box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.5);
+  padding-block: 20px;
+}
+.card-container .card .flag {
+  width: 100%;
+}
+.card-container .card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  margin-block: 10px;
+}
+.card-container .card .tag1 {
+  margin-top: 10px;
+  color: #eef7fe;
+  background-color: #23225c;
+  border-radius: 10px;
+  padding: 8px;
+  font-weight: 900;
+}
+.card-container .card .tag {
+  color: #eef7fe;
+  background-color: #23225c;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=main.css.map */
