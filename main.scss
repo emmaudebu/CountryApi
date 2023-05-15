@@ -9,6 +9,9 @@
     sans-serif;
 
 }
+body{
+    overflow-x: hidden;
+}
  .header {
      color: #23225c;
      text-align: center;
@@ -27,7 +30,7 @@
 
     .card {
         border-radius: 10px;
-        width: 400px;
+        width:400px;
         background-color: #dbe7f0;
        border: gray .5px solid;
         color: #23225c;
