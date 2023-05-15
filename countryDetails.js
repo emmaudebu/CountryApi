@@ -2045,7 +2045,7 @@ countries.forEach(country => {
   
   let countryLang = document.createElement("p")
   countryLang.classList.add('tag')
-  countryLang.innerText = "Country's Languages:" + " " + country.languages
+  countryLang.innerHTML = "<strong>Country's Languages:</strong>" + " " + country.languages
   Card.append(countryLang)
 
   let countryPopulation = document.createElement("span")
