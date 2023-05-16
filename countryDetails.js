@@ -2052,7 +2052,12 @@ countries.forEach(country => {
   countryPopulation.innerText =
     ("Country's Population :" + " " + country.population)
   Card.appendChild(countryPopulation)
-  countryPopulation.classList.add('tag1')
+  countryPopulation.classList.add('tag')
+  let countrycurrency = document.createElement("p")
+  countrycurrency.innerText =
+    ("Country's currency :" + " " + country.currency)
+  Card.appendChild(countrycurrency)
+  countrycurrency.classList.add('tag')
   
 
 

@@ -16,7 +16,7 @@ body{
      color: #23225c;
      text-align: center;
      margin-block: 20px;
-     font-size: 25px;
+     font-size: 30px;
      padding: 15px;
  }
 
@@ -29,6 +29,8 @@ body{
    
 
     .card {
+        flex-direction: column;
+        display: flex;
         border-radius: 10px;
         width:400px;
         background-color: #dbe7f0;
@@ -41,6 +43,8 @@ body{
         padding-block: 20px;
         margin: 10px;
         margin-left: 15px;
+        justify-content: center;
+
 .flag{
     width: 100%;
 }
@@ -52,25 +56,15 @@ margin-block: 10px;
 
 }
 
-.tag1{
-    margin-top: 10px;
-    color: #eef7fe;
-    background-color: #23225c;
-    border-radius: 10px;
-    padding: 8px;
-    font-weight: 900;
-   
-   
+   .tag {
+       color: #23225c;
+       background-color: #36348e5d;
+       border-radius: 10px;
+       padding: 8px;
+       margin-bottom: 10px;
+
+
+   }
     
-}
-.tag{
-    color: #eef7fe;
-    background-color: #23225c;
-    border-radius: 10px;
-    padding: 8px;
-    margin-bottom: 10px;
-   
-    
-}
     }
 }
