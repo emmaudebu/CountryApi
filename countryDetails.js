@@ -2056,8 +2056,13 @@ countries.forEach(country => {
   let countrycurrency = document.createElement("p")
   countrycurrency.innerText =
     ("Country's currency :" + " " + country.currency)
-  Card.appendChild(countrycurrency)
+  Card.append(countrycurrency)
   countrycurrency.classList.add('tag')
+  let countrycapital = document.createElement("p")
+  countrycapital.innerHTML =
+    ("<strong>Country's capital :</strong>" + " " + country.capital)
+  Card.appendChild(countrycapital)
+  countrycapital.classList.add('tag')
   
 
 
